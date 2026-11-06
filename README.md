@@ -6,7 +6,20 @@
 
 > Projeto independente de estudo em segurança cibernética, conscientização sobre engenharia social e avaliação de riscos em laboratório autorizado.
 
-## Instalação rápida (Kali Linux / Debian)
+## Instalação rápida
+
+### Arch Linux
+
+```bash
+sudo pacman -Syu
+sudo pacman -S --needed git python
+git clone https://github.com/ArturDeathCode0x/DeathCode0x-CamphishXec.git
+cd DeathCode0x-CamphishXec
+chmod +x scripts/lab-check.sh
+./scripts/lab-check.sh
+```
+
+### Kali Linux / Debian / Ubuntu
 
 ```bash
 sudo apt update
