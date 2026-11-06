@@ -6,6 +6,27 @@
 
 > Projeto independente de estudo em segurança cibernética, conscientização sobre engenharia social e avaliação de riscos em laboratório autorizado.
 
+## Instalação rápida (Kali Linux / Debian)
+
+```bash
+sudo apt update
+sudo apt install -y git python3
+git clone https://github.com/ArturDeathCode0x/DeathCode0x-CamphishXec.git
+cd DeathCode0x-CamphishXec
+chmod +x scripts/lab-check.sh
+./scripts/lab-check.sh
+```
+
+Para abrir os arquivos do projeto somente no computador local:
+
+```bash
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+Acesse `http://127.0.0.1:8000` e pressione `Ctrl+C` no terminal para encerrar.
+
+**Guia completo:** [docs/INSTALL.md](docs/INSTALL.md)
+
 ## Objetivo
 Estudar riscos de privacidade relacionados a páginas web que solicitam permissões do navegador e desenvolver práticas de conscientização e defesa.
 
