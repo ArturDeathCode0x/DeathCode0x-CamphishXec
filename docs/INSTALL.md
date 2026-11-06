@@ -4,19 +4,36 @@ Este guia prepara um laboratório **local** para estudo de segurança e conscien
 
 ## 1. Requisitos
 
-- Kali Linux, Debian ou outra distribuição Linux
+- Arch Linux, Kali Linux, Debian ou outra distribuição Linux
 - Git
 - Python 3
 - PHP é opcional e só é necessário caso você esteja estudando arquivos PHP localmente
 
-## 2. Instalar os requisitos no Kali/Debian
+## 2. Instalar os requisitos
+
+### Arch Linux
+
+Atualize o sistema e instale Git e Python:
+
+```bash
+sudo pacman -Syu
+sudo pacman -S --needed git python
+```
+
+Opcional, para analisar/executar exemplos PHP locais:
+
+```bash
+sudo pacman -S --needed php
+```
+
+### Kali Linux / Debian / Ubuntu
 
 ```bash
 sudo apt update
 sudo apt install -y git python3
 ```
 
-Opcional, para analisar/executar exemplos PHP locais:
+Opcional:
 
 ```bash
 sudo apt install -y php-cli
