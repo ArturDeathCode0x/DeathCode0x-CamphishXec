@@ -1,5 +1,9 @@
 # DeathCode0x-CamphishXec
 
+<p align="center">
+  <img src="assets/deathcode0x-banner.svg" alt="DeathCode0x CamphishXec — Authorized Security Lab" width="100%">
+</p>
+
 > Projeto independente de estudo em segurança cibernética, conscientização sobre engenharia social e avaliação de riscos em laboratório autorizado.
 
 ## Objetivo
